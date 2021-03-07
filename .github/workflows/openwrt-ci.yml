@@ -101,9 +101,9 @@ jobs:
 
           # 编译x64固件:
           cat >> .config <<EOF
-	  CONFIG_TARGET_mvebu=y
-          CONFIG_TARGET_mvebu_cortexa9=y
-          CONFIG_TARGET_mvebu_cortexa9_DEVICE_linksys_wrt32x=y
+          CONFIG_TARGET_x86=y
+          CONFIG_TARGET_x86_64=y
+          CONFIG_TARGET_x86_64_Generic=y
           EOF
 
           # 固件压缩:
